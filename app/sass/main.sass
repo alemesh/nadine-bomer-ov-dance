@@ -57,4 +57,374 @@ body
 	background-color: $accent
 	color: #fff
 
+
+//============================================
+img
+	display: inline-block
+	max-width: 100%
+	height: auto
+
+h1, h2, h3, h4, p, span
+	margin: 0 auto
+	padding: 0 auto
+	text-decoration: none
+	font-weight: normal
+
+ul
+	margin: 0 auto
+	padding: 0
+
+.main-holder
+	overflow: hidden
+	max-width: 1075px
+	margin: 0 auto
+	padding: 0 25px
+	position: relative
+.wrap-main-holder
+	overflow: hidden
+	max-width: 810px
+	margin: 0 auto
+	padding: 0 20px
+	position: relative
+
+//============================================
+.header
+	background-size: cover
+	background-position: center
+	width: 100%
+	min-height: 462px
+	.nav-section
+		position: relative
+		display: flex
+		justify-content: space-between
+		align-items: center
+		margin-top: 25px
+		padding: 0 60px 0 30px
+		.nav
+			//width: 50%
+			position: relative
+			display: flex
+			justify-content: flex-end
+			align-items: center
+			margin: 0 -12px
+			direction: rtl
+			font-family: "OpenSansHebrew-Regular"
+			font-size: 17px
+			li
+				list-style: none
+				display: flex
+				justify-content: center
+				align-items: center
+				padding: 0 12px
+			a
+				color: white
+				text-decoration: none
+				transition: all .1s ease
+				&:hover
+					//transform: scale(1.1)
+					//color: #00525d
+					text-decoration: underline
+		.social
+			//width: 50%
+			position: relative
+			display: flex
+			//justify-content: center
+			align-items: center
+			margin: 0 -5px
+			direction: rtl
+			z-index: 2
+			li
+				list-style: none
+				display: flex
+				justify-content: center
+				align-items: center
+				padding: 0 5px
+			a
+				text-decoration: none
+				//background: white
+				color: black
+				font-size: 18px
+				border-radius: 50%
+				width: 33px
+				height: 33px
+				display: flex
+				justify-content: center
+				align-items: center
+				transition: all .2s ease
+				&:hover
+					transform: scale(.9)
+			.youtube-icon
+				background-image: url(../img/youtube-icon.png)
+				background-size: cover
+				display: block
+				width: 31px
+				height: 32px
+			.instagram-icon
+				background-image: url(../img/insta-icon.png)
+				background-size: cover
+				display: block
+				width: 32px
+				height: 32px
+			.facebook-icon
+				background-image: url(../img/facebook-icon.png)
+				background-size: cover
+				display: block
+				width: 31px
+				height: 32px
+
+	.header-content
+		position: relative
+		display: flex
+		justify-content: flex-start
+		.left-block
+			width: 460px
+			position: relative
+			display: flex
+			//justify-content: center
+			flex-direction: column
+			align-items: flex-start
+			padding: 0 0 20px
+			margin-left: -20px
+			z-index: 33333333
+			.wrap-img
+				margin-top: 70px
+		.wrap-text
+			display: flex
+			justify-content: center
+			flex-direction: column
+			align-items: center
+			width: 85%
+			transform: rotate(-6deg)
+			p
+				//transform: rotate(-6deg)
+				min-width: 245px
+		.date-title
+			font-family: "MyriadPro-Regular"
+			font-size: 43px
+			line-height: 1.2
+			color: white
+			background: #00b3cb
+			margin-bottom: 15px
+			padding: 5px 18px
+			text-align: right
+		.description-title
+			direction: rtl
+			font-family: "OpenSansHebrew-Bold"
+			font-size: 25px
+			line-height: 1.2
+			color: white
+			background: #00525d
+			padding: 5px 10px
+			text-align: center
+
+.about-the-festival-section
+	background-image: url(../img/background-second-section.png)
+	background-size: cover
+	background-position: center
+	width: 100%
+	min-height: 350px
+	text-align: center
+	padding: 30px 0 70px
+	.img-girl1
+		position: absolute
+		width: 406px
+		height: 429px
+		right: 50px
+		bottom: -35px
+		z-index: 2
+	.main-holder
+		max-width: 890px
+
+	h1
+		direction: rtl
+		font-family: "OpenSansHebrew-Bold"
+		font-size: 26px
+		line-height: 1.2
+		color: white
+		margin-bottom: 25px
+	p
+		direction: rtl
+		font-family: "OpenSansHebrew-Regular"
+		font-size: 20px
+		line-height: 1.2
+		color: white
+		margin-top: 30px
+	.wrap-button
+		direction: rtl
+		font-family: "OpenSansHebrew-Bold"
+		font-size: 26px
+		display: flex
+		justify-content: center
+		align-items: center
+		a
+			display: flex
+			justify-content: center
+			align-items: center
+			min-width: 190px
+			min-height: 60px
+			color: white
+			text-decoration: none
+			background: #d5a30d
+			margin-top: 60px
+			transition: all .3s ease
+			&:hover
+				background: #b78e14
+				box-shadow: 1.414px 1.414px 50px 0px rgba(77, 77, 77, 0.3)
+
+.teachers-section
+	width: 100%
+	background-image: url(../img/background-third-section.png)
+	background-size: cover
+	background-position: center
+	padding: 50px 0 30px
+	h3
+		font-family: "OpenSansHebrew-Bold"
+		font-size: 23.4px
+		color: #00525d
+		line-height: 1.2
+		text-align: center
+		margin-bottom: 30px
+	.teachers
+		direction: rtl
+		display: flex
+		justify-content: center
+		align-items: center
+		margin: 0 -10px 50px
+		.teacher
+			list-style: none
+			padding: 0 10px
+			width: 33.333%
+			height: 240px
+			display: flex
+			//justify-content: center
+			//align-items: center
+		.wrap-teacher
+			width: 100%
+			height: 100%
+			background-size: cover
+			display: flex
+			align-items: flex-end
+			justify-content: center
+		.name-teacher
+			direction: ltr
+			display: flex
+			justify-content: center
+			align-items: center
+			width: 100%
+			background: rgba(0, 82, 93, .9)
+			font-family: "OpenSansHebrew-Bold"
+			font-size: 13px
+			line-height: 1.2
+			color: white
+			min-height: 45px
+		.underline-text
+			text-decoration: underline
+		.name-teacher-2
+			background: rgba(1, 171, 193, .9)
+		.name-teacher-3
+			background: rgba(9, 144, 183, .9)
+			.bg-lier
+				position: relative
+				&:after
+					content: ''
+					position: absolute
+					top: 50%
+					left: -25px
+					transform: translateY(-50%)
+					background-image: url(../img/teacher-bg-lier-2.png)
+					width: 19px
+					height: 19px
+		.teacher-bg-lier
+			position: relative
+			&:after
+				content: ''
+				position: absolute
+				top: 25px
+				left: -20px
+				background-image: url(../img/teacher-bg-lier.png)
+				background-size: cover
+				width: 41px
+				height: 98px
+		.teacher-bg-lier-1
+			&:after
+				top: 25px
+				left: -20px
+		.teacher-bg-lier-2
+			&:after
+				top: 25px
+				left: -30px
+		.teacher-bg-lier-3
+			&:after
+				top: 110px
+				left: -20px
+	.teachers
+		.teacher
+			&:nth-child(1)
+				.name-teacher-3
+					font-size: 11px
+
+.reservation-section
+	width: 100%
+	background: #f5f5f5
+	.main-holder
+		padding: 63px 25px 55px
+		display: flex
+		justify-content: space-between
+	.right-content
+		width: 50%
+		max-width: 430px
+		direction: rtl
+		h3
+			font-family: "OpenSansHebrew-Bold"
+			font-size: 23.4px
+			line-height: 1.2
+			color: #00525d
+			margin-bottom: 40px
+		p
+			font-family: "OpenSansHebrew-Regular"
+			font-size: 20px
+			line-height: 1.35
+			color: rgb(0, 82, 93)
+			margin-bottom: 25px
+	.left-content
+		width: 50%
+		.wrap-img
+			background: #cd9d0c
+			position: relative
+			width: 508px
+			height: 258px
+			img
+				position: absolute
+				top: -8px
+				left: -8px
+				width: 508px
+				height: 258px
+	.teacher-bg-lier
+		position: relative
+		&:after
+			content: ''
+			position: absolute
+			top: 25px
+			left: -25px
+			background-image: url(../img/teacher-bg-lier.png)
+			background-size: cover
+			width: 41px
+			height: 98px
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @import "media" // Всегда в конце
