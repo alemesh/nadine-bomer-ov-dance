@@ -185,7 +185,7 @@ ul
 			align-items: flex-start
 			padding: 0 0 20px
 			margin-left: -20px
-			z-index: 33333333
+			//z-index: 33333333
 			.wrap-img
 				margin-top: 70px
 		.wrap-text
@@ -319,6 +319,8 @@ ul
 			min-height: 45px
 		.underline-text
 			text-decoration: underline
+			color: white
+
 		.name-teacher-2
 			background: rgba(1, 171, 193, .9)
 		.name-teacher-3
@@ -411,8 +413,362 @@ ul
 			width: 41px
 			height: 98px
 
+.video-section
+	width: 100%
+	background-image: url(../img/background-video-section.png)
+	background-size: cover
+	.wrap-main-holder
+		padding: 100px 20px
+	.wrap-video
+		width: 720px
+		height: 360px
+		margin: 0 auto
+		video
+			width: 100%
+			height: auto
+
+.competition-of-battles-section
+	width: 100%
+	background-image: url(../img/Background-fiftch-section.png)
+	background-size: cover
+	direction: rtl
+	position: relative
+	.bg-lier-dancer
+		position: absolute
+		bottom: 0
+		left: 0
+		width: 536px
+		height: 671px
+		background-size: cover
+	.wrap-main-holder
+		padding: 95px 20px 85px
+		max-width: 690px
+	.wrap-text-section
+		display: flex
+		flex-direction: column
+		transform: rotate(6deg)
+		width: 400px
+	span
+		font-family: "OpenSansHebrew-Bold"
+		line-height: 1.2
+		color: white
+		margin: 4px auto
+		display: block
+	.first-text
+		background: #00b3cb
+		font-size: 49.9px
+		padding: 20px 35px
+	.second-text
+		background: #0094be
+		font-size: 67.52px
+		text-transform: uppercase
+		padding: 10px 22px
+	.third-text
+		color: #00525d
+		font-size: 31.28px
+		text-align: left
+		margin: 8px 0 4px
+		position: relative
+		&:after
+			content: ''
+			position: absolute
+			top: 50%
+			right: -3px
+			transform: translateY(-50%) rotate(-11deg)
+			background-image: url(../img/fiftch-lier.png)
+			background-size: cover
+			width: 107px
+			height: 67px
+
+.scholarships-and-prizes
+	width: 100%
+	background-image: url(../img/background-sixth-section.png)
+	background-size: cover
+	padding: 60px 20px 80px
+	text-align: center
+	direction: rtl
+	position: relative
+	.bg-lier-dancer
+		position: absolute
+		bottom: 0
+		right: 60px
+		width: 566px
+		height: 417px
+		background-size: cover
+	h3
+		font-family: "OpenSansHebrew-Bold"
+		font-size: 28px
+		line-height: 1.2
+		color: white
+		margin-bottom: 35px
+	p
+		font-family: "OpenSansHebrew-Regular"
+		font-size: 20px
+		line-height: 1.2
+		color: white
+
+.form-section
+	.main-holder
+		padding: 40px 25px
+	.first-block
+		min-height: 230px
+		background: #f5f5f5
+		padding: 35px 0 45px
+		text-align: center
+		direction: rtl
+		position: relative
+		&:after
+			content: ''
+			position: absolute
+			background-image: url(../img/teacher-bg-lier.png)
+			background-size: cover
+			width: 41px
+			height: 98px
+			top: -30px
+			right: -20px
+		&:before
+			content: ''
+			position: absolute
+			background-image: url(../img/teacher-bg-lier.png)
+			background-size: cover
+			width: 41px
+			height: 98px
+			bottom: -47px
+			left: 60px
+			transform: rotate(90deg)
+
+		h3
+			max-width: 670px
+			font-family: "OpenSansHebrew-Bold"
+			font-size: 27px
+			line-height: 1.2
+			color: #00525d
+		.wrap-button
+			background: #00525d
+			margin-top: 30px
+			display: inline-block
+			font-family: "OpenSansHebrew-Bold"
+			font-size: 27px
+			line-height: 1.2
+			color: white
+			text-decoration: none
+			min-width: 215px
+			padding: 16px 18px
+			transition: .3s
+			&:hover
+				background: #19626c
+	.second-block
+		direction: rtl
+		min-height: 130px
+		border: 4px solid #00a9c8
+		background: #f5f5f5
+		margin-top: 50px
+		display: flex
+		justify-content: space-between
+		padding: 0 30px 0 85px
+		h3
+			font-family: "OpenSansHebrew-Regular"
+			font-size: 35px
+			line-height: 1.2
+			color: #f39312
+			span
+				color: #00a9c8
+				font-family: "OpenSansHebrew-Bold"
+		.left-section
+			display: flex
+			justify-content: center
+			align-items: center
+		.right-block
+			display: flex
+			flex-direction: column
+			justify-content: center
+			h3
+				margin: 0
+	.items-block
+		margin-top: 45px
+		h3
+			font-family: "OpenSansHebrew-Bold"
+			font-size: 28px
+			line-height: 1.2
+			color: #00525d
+			text-align: center
+			margin-bottom: 45px
+		.items
+			display: flex
+			justify-content: center
+			align-items: center
+			margin: 0 -15px
+			.item
+				list-style: none
+				padding: 0 15px
+
+.footer
+	width: 100%
+	background: #00525d
+	.main-holder
+		padding: 20px 25px
+	.wrap-footer
+		display: flex
+		justify-content: space-between
+		padding: 0 15px
+	.center-block
+		text-align: center
+		direction: rtl
+		font-size: 20px
+		font-family: "OpenSansHebrew-Regular"
+		color: white
+		a
+			color: white
+			text-decoration: none
+		.wrap-img
+			margin-top: 15px
+	.right-block
+		.social
+			//width: 50%
+			position: relative
+			display: flex
+			//justify-content: center
+			align-items: center
+			margin: 0 -5px
+			direction: rtl
+			z-index: 2
+			li
+				list-style: none
+				display: flex
+				justify-content: center
+				align-items: center
+				padding: 0 5px
+			a
+				text-decoration: none
+				//background: white
+				color: black
+				font-size: 18px
+				border-radius: 50%
+				width: 33px
+				height: 33px
+				display: flex
+				justify-content: center
+				align-items: center
+				transition: all .2s ease
+				&:hover
+					transform: scale(.9)
+			.youtube-icon
+				background-image: url(../img/youtube-icon.png)
+				background-size: cover
+				display: block
+				width: 31px
+				height: 32px
+			.instagram-icon
+				background-image: url(../img/insta-icon.png)
+				background-size: cover
+				display: block
+				width: 32px
+				height: 32px
+			.facebook-icon
+				background-image: url(../img/facebook-icon.png)
+				background-size: cover
+				display: block
+				width: 31px
+				height: 32px
 
 
+
+
+//=============== Togle mnu ======
+
+.toggle-mnu
+	//background: #666666
+	display: block
+	position: absolute
+	right: 26px
+	top: 7px
+	//width: 48px
+	//height: 48px
+	text-align: center
+	line-height: 48px
+	z-index: 9
+	cursor: pointer
+
+
+
+.toggle-mnu
+	display: block
+	width: 40px
+	height: 28px
+	margin: 22px auto 0
+	position: absolute
+	right: 15px
+	top: 27px
+
+.toggle-mnu
+	position: fixed
+	right: 28px
+	top: 20px
+
+.toggle-mnu span:after,
+.toggle-mnu span:before
+	content: ""
+	position: absolute
+	left: 0
+	top: -9px
+
+.toggle-mnu span:after
+	top: 9px
+
+.toggle-mnu span
+	position: relative
+	display: block
+	z-index: 2222
+
+
+.toggle-mnu span,
+.toggle-mnu span:after,
+.toggle-mnu span:before
+	//width: 100%
+	width: 27px
+	height: 3px
+	background-color: white
+	transition: all 0.3s
+	backface-visibility: hidden
+	border-radius: 2px
+
+/* on activation */
+.toggle-mnu.on span
+	background-color: transparent
+
+.toggle-mnu.on span:before
+	transform: rotate(45deg) translate(5px, 5px)
+
+.toggle-mnu.on span:after
+	transform: rotate(-45deg) translate(7px, -8px)
+
+.toggle-mnu.on + #menu
+	opacity: 1
+	visibility: visible
+.toggle-mnu
+	&:after
+		content: ''
+		//background: #217776
+		width: 50px
+		height: 50px
+		position: absolute
+		top: -24px
+		left: -5px
+.toggle-mnu.on
+	&:after
+		//background-color: #00525d
+		width: 45px
+		height: 45px
+		top: -22px
+		left: -3px
+.toggle-mnu.background-button
+	&:after
+		background-color: #00525d
+		width: 45px
+		height: 45px
+		top: -22px
+		left: -3px
+		z-index: 9
 
 
 
